@@ -1,0 +1,22 @@
+body {
+    background-color:#ffffff;  
+}
+a {
+    color:#212121;
+}
+a:hover,
+a:focus{
+    color:#2196f3;
+}
+
+.section-title {
+    color: #212121;
+}
+.hero-title {
+    color: #ffffff;
+}
+.advantages-text{
+    color: #757575;
+}
+
+ 
