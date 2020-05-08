@@ -1,22 +1,46 @@
+:root{
+    --primary-text-color: #212121;
+    --secondary-text-color:#ffffff;
+    --accent-color:#757575;
+    --invocation-color:#2196f3;
+
+
+    
+}
+
 body {
-    background-color:#ffffff;  
+    background-color:var(--secondary-text-color);  
 }
 a {
-    color:#212121;
+    color:var(--primary-text-color);
 }
 a:hover,
 a:focus{
-    color:#2196f3;
+    color:var(--invocation-color);
 }
 
 .section-title {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .hero-title {
-    color: #ffffff;
+    color: var(--secondary-text-color);
 }
 .advantages-text{
-    color: #757575;
+    color: var(--accent-color);
 }
 
- 
+.section .section-list {
+    color: var(--secondary-text-color);
+}
+.occupation{
+    color: var(--accent-color);
+}
+.section-team{
+    background-color: #f5f4fa;
+}
+.section-clients:hover{
+color: var(--invocation-color);
+}
+.section-companies:focus{
+    border: thin;
+}
