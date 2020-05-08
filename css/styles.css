@@ -44,3 +44,10 @@ color: var(--invocation-color);
 .section-companies:focus{
     border: thin;
 }
+.footer{
+    color: var(--secondary-text-color);
+    background-color: #2f303a;
+}
+.mail{
+    color: rgba(255,255,255, 0.6);
+}
