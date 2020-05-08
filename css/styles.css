@@ -47,7 +47,11 @@ color: var(--invocation-color);
 .footer{
     color: var(--secondary-text-color);
     background-color: #2f303a;
+    
 }
 .mail{
     color: rgba(255,255,255, 0.6);
+}
+.dev{
+    color: rgba(255,255,255, 0.4);
 }
