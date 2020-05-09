@@ -2,7 +2,8 @@
     --primary-text-color: #212121;
     --secondary-text-color:#ffffff;
     --accent-color:#757575;
-    --invocation-color:#2196f3;
+    --link-color:#2196f3;
+    --buttons-background:#f5f4fa;
 
 
     
@@ -16,9 +17,23 @@ a {
 }
 a:hover,
 a:focus{
-    color:var(--invocation-color);
+    color:var(--link-color);
 }
+.button{
+    background-color: var(--link-color);
+    color: var(--secondary-text-color)
+}
+.buttons{
+    background-color: var(--buttons-background);
+    color: var(--primary-text-color);
+}
+.buttons:hover
+.buttons:focus{
+    background-color: var(--link-color);
+    color: var(--secondary-text-color);
 
+
+}
 .section-title {
     color: var(--primary-text-color);
 }
@@ -39,7 +54,7 @@ a:focus{
     background-color: #f5f4fa;
 }
 .section-clients:hover{
-color: var(--invocation-color);
+color: var(--link-color);
 }
 .section-companies:focus{
     border: thin;
