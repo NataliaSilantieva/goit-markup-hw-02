@@ -4,13 +4,14 @@
     --accent-color:#757575;
     --link-color:#2196f3;
     --buttons-background:#f5f4fa;
-
+    
 
     
 }
 
 body {
-    background-color:var(--secondary-text-color);  
+    background-color:var(--secondary-text-color); 
+
 }
 a {
     color:var(--primary-text-color);
@@ -36,6 +37,9 @@ a:focus{
 .buttons:focus{
     background-color: var(--link-color);
     color: var(--secondary-text-color);
+}
+.site-nav .current{
+    color: var(--link-color);
 }
 .section-title {
     color: var(--primary-text-color);
