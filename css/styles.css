@@ -23,6 +23,11 @@ a:focus{
     background-color: var(--link-color);
     color: var(--secondary-text-color)
 }
+.button:hover,
+.button:focus{
+    background-color: var(--link-color);
+    color: var(--secondary-text-color);
+}
 .buttons{
     background-color: var(--buttons-background);
     color: var(--primary-text-color);
