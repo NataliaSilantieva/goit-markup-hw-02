@@ -27,12 +27,10 @@ a:focus{
     background-color: var(--buttons-background);
     color: var(--primary-text-color);
 }
-.buttons:hover
+.buttons:hover,
 .buttons:focus{
     background-color: var(--link-color);
     color: var(--secondary-text-color);
-
-
 }
 .section-title {
     color: var(--primary-text-color);
