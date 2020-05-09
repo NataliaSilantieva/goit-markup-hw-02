@@ -56,11 +56,18 @@ a:focus{
 .section-team{
     background-color: #f5f4fa;
 }
-.section-clients:hover{
-color: var(--link-color);
+
+.works .works-list{
+    color: var(--accent-color);
 }
 .section-companies:focus{
-    border: thin;
+    border: var(--link-color)
+}
+.section-companies:hover{
+    color:var(--link-color)    
+}
+.section-companies{
+    color: var(--accent-color);
 }
 .footer{
     color: var(--secondary-text-color);
