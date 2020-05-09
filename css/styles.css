@@ -3,10 +3,7 @@
     --secondary-text-color:#ffffff;
     --accent-color:#757575;
     --link-color:#2196f3;
-    --buttons-background:#f5f4fa;
-    
-
-    
+    --buttons-background:#f5f4fa;    
 }
 
 body {
@@ -167,6 +164,11 @@ ul{
     font-weight: 700;
     font-size: 22px;
     line-height: 1,2;
+    color: var(--secondary-text-color)
+   
+}
+.colortext{
+    color:var(--link-color)
 }
 .adress{
     font-size: 14px;
