@@ -92,6 +92,10 @@ ul{
     color: var(--accent-color);
     letter-spacing: 0.2em;
     font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1px;
+    letter-spacing: 0.02em;
 }
 .site-nav-adress a:hover,
 .site-nav-adress a:focus{
