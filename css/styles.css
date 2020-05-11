@@ -3,7 +3,8 @@
     --secondary-text-color:#ffffff;
     --accent-color:#757575;
     --link-color:#2196f3;
-    --buttons-background:#f5f4fa;    
+    --buttons-background:#f5f4fa; 
+    --social-link-color:#AFB1B8;   
 }
 
 body {
@@ -38,6 +39,9 @@ ul{
     color: var(--secondary-text-color);
     font-family: inherit;
     font-weight: 900;  
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
 }
 .button-footer:hover,
 .button-footer:focus{
@@ -104,6 +108,10 @@ ul{
     line-height: 1.4;
     text-align: center;
 }
+.icon:hover,
+.icon:focus{
+    color:var(--link-color);   
+}
 .advantages-title {
     font-size: 14px;
     line-height: 1.1;
@@ -130,6 +138,10 @@ ul{
     line-height: 1.1;
     letter-spacing: 0.03em;
 }
+.section-list:hover,
+.section:focus{
+    color: var(--link-color);
+}
 .section-title {
         color: var(--primary-text-color);
         font-size: 36px;
@@ -149,7 +161,14 @@ ul{
     line-height: 1.2px;
 }
 .section-team{
-    background-color: #f5f4fa;
+    background-color: var(--buttons-background);
+}
+.social-links{
+    color:var(--social-link-color);
+}
+.social-links:hover,
+.social-links:focus{
+    color: var(--link-color);
 }
 .works-projects{
     color: var(--primary-text-color);
@@ -196,16 +215,22 @@ ul{
 .footer{
     color: var(--secondary-text-color);
     background-color: #2f303a;
+    font-weight: 700;
     letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.1;
 }
+
 .logo{
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 22px;
     line-height: 1.2;
     color: var(--secondary-text-color)  
+}
+.logo:hover,
+.logo:focus{
+    color: var(--link-color);
 }
 .upper-logo{
     font-family: Raleway, sans-serif;
@@ -214,6 +239,10 @@ ul{
     line-height: 1.2;
     color: var(--primary-text-color)    
 }
+.upper-logo:hover,
+.upper-logo:focus{
+    color: var(--link-color);
+}
 .colortext{
     color:var(--link-color)
 }
@@ -221,11 +250,31 @@ ul{
     font-size: 14px;
     line-height: 1.7;
     font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 
 }
+.adress:hover,
+.adress:focus{
+    color: var(--link-color);
+}
+.join{
+    text-transform: uppercase;
+}
+.join:hover,
+.join:focus{
+    color: var(--link-color);
+}
+
+
 .mail{
     color: rgba(255,255,255, 0.6);
     font-style: normal;
+}
+.mail:hover,
+.mail:focus{
+    color: var(--link-color);
 }
 .dev{
     color: rgba(255,255,255, 0.4);
